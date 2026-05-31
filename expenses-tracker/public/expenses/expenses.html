@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Expenses</h1>
+        <nav>
+            <ul>
+                <li><a href="/expenses/expenses.html">Expenses</a></li>
+                <li><a href="/categories/categories.html">Categories</a></li>
+            </ul>
+            <button id="logoutButton">Logout</button>
+        </nav>
+    </header>
+    <main>
+        <section id="inputSection">
+            <input type="date" id="txnDate" required>
+            <input type="text" id="txnDesc" placeholder="description" min="1" required>
+            <select id="txnCat"></select>
+            <input type="number" id="txnAmt" min="0" step="0.01" placeholder="0.00" required>
+            <button id="addButton">Add Transaction</button>
+            <button id="cancelButton" style="display:none">Cancel</button>
+        </section>
+
+        <section id="txnList"></section>
+    </main>
+</body>
+
+</html>

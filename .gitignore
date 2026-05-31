@@ -1,0 +1,10 @@
+.DS_Store
+**/.DS_Store
+__MACOSX/
+node_modules/
+**/node_modules/
+.env
+.env.test
+**/.env
+**/.env.test
+.vscode/ 
