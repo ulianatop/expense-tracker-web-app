@@ -4,7 +4,7 @@ This is a full-stack coursework project for tracking personal expenses. The app 
 
 ## My Work
 
-My work included implementing and connecting full-stack features, including client-side pages, custom Node.js server logic, REST API handlers, database logic, user authentication, password hashing, JWT-based login, and unit tests. I also worked with multiple-user support so each user could access only their own expenses and categories after logging in.
+My work focused on implementing and connecting full-stack features, including client-side pages, server API handlers, database logic, user authentication flow, and unit tests. I also worked with multiple-user support so each user could access their own expenses and categories after logging in.
 
 ## Technologies Used
 
