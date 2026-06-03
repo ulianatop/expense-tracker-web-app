@@ -51,11 +51,3 @@ Open the app:
 ```text
 http://localhost:8000
 ```
-
-## Running Tests
-
-From the `expenses-tracker` folder, run:
-
-```bash
-npm test
-```
