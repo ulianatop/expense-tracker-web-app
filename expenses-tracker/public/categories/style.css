@@ -161,6 +161,12 @@ tr:last-child td {
     border-bottom: none;
 }
 
+#txnList,
+#catList {
+    text-align: center;
+    padding: 18px;
+}
+
 @media (max-width: 700px) {
     .header-content {
         align-items: flex-start;
