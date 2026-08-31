@@ -11,21 +11,37 @@
 
 <body>
     <header>
-        <h1>Categories</h1>
-        <nav>
-            <ul>
-                <li><a href="/expenses/expenses.html">Expenses</a></li>
-                <li><a href="/categories/categories.html">Categories</a></li>
-            </ul>
-            <button id="logoutButton">Logout</button>
-        </nav>
+        <div class="header-content">
+            <h1>Expense Tracker</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="/expenses/expenses.html">Expenses</a></li>
+                    <li><a class="active" href="/categories/categories.html">Categories</a></li>
+                </ul>
+
+                <button id="logoutButton">Logout</button>
+            </nav>
+        </div>
     </header>
+
     <main>
+        <h2>Categories</h2>
+        <p class="page-description">Add and manage your expense categories below.</p>
 
         <section id="inputSection">
-            <input type="text" id="catName" placeholder="category" min="1" required>
-            <button id="addButton">Add</button>
-            <button id="cancelButton" style="display:none">Cancel</button>
+            <input
+                type="text"
+                id="catName"
+                placeholder="Category name"
+                minlength="1"
+                required
+            >
+
+            <div class="button-group">
+                <button id="addButton">Add Category</button>
+                <button id="cancelButton" style="display:none">Cancel</button>
+            </div>
         </section>
 
         <section id="catList"></section>

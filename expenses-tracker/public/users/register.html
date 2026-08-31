@@ -4,22 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Register | Expense Tracker</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="./register.js" type="module"></script>
 </head>
 
 <body>
     <header>
-        <h1>Register</h1>
+        <div class="header-content">
+            <h1>Expense Tracker</h1>
+        </div>
     </header>
+
     <main>
-        <form id="registerForm">
-            <input type="text" id="username" placeholder="Username" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit">Register</button>
-            <p id="error" class="error"></p>
-        </form>
-        <p>Already have an account? <a href="/users/login.html">Login</a></p>
+        <div class="login-card">
+            <h2>Register</h2>
+            <p class="page-description">Create an account to start tracking your expenses.</p>
+
+            <form id="registerForm">
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Username"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                    required
+                >
+
+                <button type="submit">Register</button>
+
+                <p id="error" class="error"></p>
+            </form>
+
+            <p class="account-link">
+                Already have an account?
+                <a href="/users/login.html">Login</a>
+            </p>
+        </div>
     </main>
 </body>
 
